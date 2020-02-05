@@ -5,10 +5,10 @@ sidebar_links:
   - title: Docs Home
     link: "/docs"
   - title: Install Chef Habitat
-    link: "/docs/install-habitat/install-habitat"
+    link: "/docs/install-habitat/install-cli"
     sub_links:
     - title: Get Chef Habitat
-      link: "/docs/install-habitat/installing-packages"
+      link: "/docs/install-habitat/install-cli"
     - title: Accept the License
       link: "/docs/install-habitat/accept-the-license"
     - title: Configure Your Workstation
@@ -30,7 +30,7 @@ sidebar_links:
       link: "/docs/developing-packages/developing-packages/#debug-builds"
     - title: Package Export Formats
       link: "/docs/developing-packages/developing-packages/#pkg-exports"
-  - title: Builder
+  - title: Working with Builder
     link: "/docs/using-builder/using-builder"
     sub_links:
     - title: Create an Account
@@ -56,28 +56,28 @@ sidebar_links:
   - title: Managing Services
     link: "/docs/using-habitat/using-habitat"
     sub_links:
-    - title: Overview
-      link: "/docs/using-habitat/using-habitat/#overview"
-    - title: Using Chef Habitat Packages
-      link: "/docs/using-habitat/using-habitat/#using-packages"
+    - title: Running Chef Habitat Packages
+      link: "/docs/using-habitat/using-packages"
     - title: Setting up a Ring
-      link: "/docs/using-habitat/using-habitat/#setting-up-a-ring"
+      link: "/docs/using-habitat/setting-up-a-ring"
     - title: Monitor Services
-      link: "/docs/using-habitat/using-habitat/#monitor-services"
+      link: "/docs/using-habitat/monitor-services"
     - title: Service Groups
-      link: "/docs/using-habitat/using-habitat/#service-groups"
+      link: "/docs/using-habitat/service-groups"
     - title: Topologies
-      link: "/docs/using-habitat/using-habitat/#topologies"
+      link: "/docs/using-habitat/topologies"
     - title: Config Updates
-      link: "/docs/using-habitat/using-habitat/#config-updates"
+      link: "/docs/using-habitat/config-updates"
     - title: File Uploads
-      link: "/docs/using-habitat/using-habitat/#file-uploads"
+      link: "/docs/using-habitat/file-uploads"
     - title: Encryption
-      link: "/docs/using-habitat/using-habitat/#using-encryption"
+      link: "/docs/using-habitat/using-encryption"
     - title: Update Strategies
-      link: "/docs/using-habitat/using-habitat/#using-updates"
+      link: "/docs/using-habitat/using-updates"
     - title: Continuous Deployment
-      link: "/docs/using-habitat/using-habitat/#continuous-deployment"
+      link: "/docs/using-habitat/continuous-deployment"
+    - title: Controlling Supervisors Remotely
+      link: "/docs/using-habitat/remote-control"
   - title: Chef Habitat and Other Software
     link: "/docs/habitat-and-other-software/habitat-and-others"
     sub_links:
