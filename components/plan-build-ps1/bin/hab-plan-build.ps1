@@ -1557,7 +1557,7 @@ foreach($place in $candidateTargetPlaces) {
     }
 }
 if($places.Count -eq 0) {
-    foreach($place in $candidatetPlaces) {
+    foreach($place in $candidatePlaces) {
         if(Test-Path $place) {
             $places += $place
             $script:PLAN_CONTEXT = (Split-Path $place -Parent)
@@ -1568,7 +1568,7 @@ if($places.Count -gt 1) {
     throw "A Plan file was found in the following places: $($places -Join ', '). Only one is allowed at a time"
 }
 if($places.Count -eq 0) {
-    throw "Plan file not found in any of these paths: $($candidatePlaces -Join ', ')"
+    throw "Plan file not found in any of these paths: $(($candidatePlaces + $candidateTargetPlaces) -Join ', ')"
 }
 
 

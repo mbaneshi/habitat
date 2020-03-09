@@ -22,6 +22,11 @@ Describe "Studio build" {
         $LASTEXITCODE | Should -Be 1
     }
 
+    It "does not build plan-in-none" {
+        hab pkg build test/fixtures/plan-in-none
+        $LASTEXITCODE | Should -Be 1
+    }
+
     It "builds plan in target if also in root" {
         hab pkg build test/fixtures/plan-in-root-and-target
         if($IsLinux) {
